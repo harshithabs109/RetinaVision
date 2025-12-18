@@ -1,0 +1,14 @@
+# Files to ignore during deployment
+*.md
+.git
+.gitignore
+test_images/
+samples/
+results/
+backend/uploads/
+backend/static/visualizations/
+*.pdf
+__pycache__/
+*.pyc
+.env
+.env.local
