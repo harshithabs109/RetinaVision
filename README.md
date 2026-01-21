@@ -49,31 +49,38 @@ Manual diagnosis of retinal diseases is time-consuming, requires expert ophthalm
 ```bash
 git clone https://github.com/your-username/retinavision.git
 cd retinavision
+```
 
 ### Step 2: Backend Setup
-
+```bash
 cd backend
 python -m venv venv
 source venv/bin/activate     # Windows: venv\Scripts\activate
 pip install -r requirements.txt
+```
 
 Place the trained model file in the backend folder:
 mymodeltrained3.h5
 
 Run the backend server:
+```bash
 python app.py
-
+```
 Backend URL:
+```bash
 http://localhost:5000
+```
 
 ### Step 3: Frontend Setup
-
+```bash
 cd frontend
 npm install
 npm start
-
+```
 Frontend URL:
+```bash
 http://localhost:3000
+```
 
 ## How to Use
 - Upload a retinal fundus or OCT image
